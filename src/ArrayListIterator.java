@@ -1,5 +1,3 @@
-package oop.coolections.list.linkedlist;
-
 public class ArrayListIterator {
 
     private ArrayList array;

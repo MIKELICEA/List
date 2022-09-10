@@ -1,3 +1,4 @@
+
 public class LinkedListIterator {
 
     public boolean hasNext(){

@@ -1,15 +1,16 @@
 public class Main {
 
     public static void main(String[] args) {
-        LinkedList linkedList1 = new LinkedList();
 
-        LinkedListIterator iterator;
+        ArrayList arrayList = new ArrayList();
 
-        linkedList1.add("1");
+        ArrayListIterator iterator;
 
-        linkedList1.add("1");
-        linkedList1.add("2");
-        linkedList1.add("3");
+        arrayList.addElement("Miguel");
+        arrayList.addElement("Lopez");
+        arrayList.addElement("Licea");
+        arrayList.remove(2);
+        arrayList.removeAll();
 
     }
 }

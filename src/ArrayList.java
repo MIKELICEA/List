@@ -1,5 +1,3 @@
-package oop.coolections.list.linkedlist;
-
 public class ArrayList {
 
     private static final int firstSize = 5; //Primer tamaño del arreglo que crecera conforme se agreguen elementos
@@ -18,6 +16,9 @@ public class ArrayList {
         if(size == array.length){
             increaseArray();
         }
+
+        array[size] = data;
+        size++;
     }
 
     public void remove(int index){ //Borrar solo un elemento del arreglo
