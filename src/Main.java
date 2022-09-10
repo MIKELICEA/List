@@ -5,5 +5,11 @@ public class Main {
 
         LinkedListIterator iterator;
 
+        linkedList1.add("1");
+
+        linkedList1.add("1");
+        linkedList1.add("2");
+        linkedList1.add("3");
+
     }
 }
